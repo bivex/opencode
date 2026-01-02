@@ -1,4 +1,18 @@
 #!/usr/bin/env node
+/**
+ * Copyright (c) 2026 Bivex
+ *
+ * Author: Bivex
+ * Available for contact via email: support@b-b.top
+ * For up-to-date contact information:
+ * https://github.com/bivex
+ *
+ * Created: 2026-01-02T21:49:46
+ * Last Updated: 2026-01-02T22:03:17
+ *
+ * Licensed under the MIT License.
+ * Commercial licensing available upon request.
+ */
 
 const childProcess = require("child_process")
 const fs = require("fs")
