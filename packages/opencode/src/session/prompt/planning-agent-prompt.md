@@ -44,4 +44,4 @@ Return a plan in this structure:
 - Call out breaking changes or API surface changes explicitly
 - Identify existing tests that will need updates
 - Keep the plan focused on the requested scope — do not expand beyond what was asked
-- If you use `save-file`, only use it to write the plan to a file when explicitly asked
+- If you use `write`, only use it to write the plan to a file when explicitly asked
