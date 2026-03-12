@@ -1,0 +1,9 @@
+Push git commits to a remote repository.
+
+IMPORTANT: Follow these git push conventions:
+- Only push when the user explicitly requests it
+- Use --force-with-lease instead of --force for safety (prevents overwriting others' work)
+- Never force push to main/master branches without explicit permission
+- Use --set-upstream for first push of a new branch
+
+Use git_status tool first to verify the current branch state.

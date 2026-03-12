@@ -1,0 +1,11 @@
+Create a git commit.
+
+IMPORTANT: Follow these git commit conventions:
+- Create a new commit only when the user explicitly asks you to
+- For commit messages, use a clear, concise format: [type] brief description
+  Types: feat, fix, refactor, docs, test, chore
+- Never skip hooks (--no-verify) unless explicitly requested
+- Use --amend only when the user explicitly requests it
+- Always check git status first to understand what will be committed
+
+Use git_status tool first to see what changes are staged.
