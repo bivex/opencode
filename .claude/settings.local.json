@@ -9,7 +9,8 @@
       "Bash(bun run:*)",
       "Bash(source ~/.bashrc 2>/dev/null; source ~/.zshrc 2>/dev/null; export PATH=\"$HOME/.bun/bin:$PATH\"; bun --version)",
       "Bash(/Volumes/External/Code/opencode/Build_Release.sh --help)",
-      "Bash(bun install:*)"
+      "Bash(bun install:*)",
+      "Bash(git add:*)"
     ]
   }
 }

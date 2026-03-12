@@ -73,8 +73,9 @@ export const GitPushTool = Tool.define("git_push", {
       if (params.setUpstream) args.push("--set-upstream")
 
       const remote = params.remote || "origin"
-      const branch = params.branch || await $`git branch --show-current`.cwd(cwd).quiet().then(r => r.stdout.toString().trim())
+      const branch = params.branch || await $`git branch --show-current`.cwd(cwd).quiet().then(r => r.stdout?.toString().trim())
 
+      if (!branch) throw new Error("Could not determine branch name")
       args.push(remote, branch)
 
       const result = await $`git ${args}`.cwd(cwd).quiet()
